@@ -1,1 +1,32 @@
-<p>contact-detail works!</p>
+<div class="row">
+    <div class="col-xs-12" *ngFor="let contact of contacts">
+        <img src="" alt="" class="img-responsive">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12" >
+        <h1> {{ contact.name }}</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle">Edit</button>
+            <button type="button" class="btn btn-danger dropdown-toggle">Delete</button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        Email: {{ contact.email}}
+    </div>
+</div>
+
+<div class="row">
+        <div class="col-xs-12">
+            Phone: {{ contact.phone}}
+        </div>
+</div>
