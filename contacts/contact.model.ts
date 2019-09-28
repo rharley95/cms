@@ -6,7 +6,7 @@ export class Contact {
     public imageUrl: string;
     public group: string;
 
-    constructor(contactId: string, name: string, email: string, phone: string, imageUrl: string, group: string){
+    constructor(contactId: string, name: string, email: string, phone: string, imageUrl: string, group: string) {
         this.contactId = contactId;
         this.name = name;
         this.email = email;
